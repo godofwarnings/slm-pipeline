@@ -1,0 +1,4293 @@
+{
+  "nodes": [
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:0",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/auth/services/user.service",
+        "originalId": "External:./core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:1",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../auth/services/jwt.service",
+        "originalId": "External:../auth/services/jwt.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:2",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./app.routes",
+        "originalId": "External:./app.routes"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:3",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/auth/services/jwt.service",
+        "originalId": "External:./core/auth/services/jwt.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:4",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/interceptors/api.interceptor",
+        "originalId": "External:./core/interceptors/api.interceptor"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:5",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/interceptors/token.interceptor",
+        "originalId": "External:./core/interceptors/token.interceptor"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:6",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/interceptors/error.interceptor",
+        "originalId": "External:./core/interceptors/error.interceptor"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:7",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./app/app.component",
+        "originalId": "External:./app/app.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:8",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./app/app.config",
+        "originalId": "External:./app/app.config"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:23",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/auth/services/jwt.service.ts",
+        "filePath": "src/app/core/auth/services/jwt.service.ts",
+        "name": "jwt.service.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/auth/services/jwt.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:24",
+      "labels": [
+        "Service"
+      ],
+      "properties": {
+        "id": "Service:JwtService:src/app/core/auth/services/jwt.service.ts",
+        "filePath": "src/app/core/auth/services/jwt.service.ts",
+        "name": "JwtService",
+        "providedIn": "root",
+        "type": "Service"
+      },
+      "id": "Service:JwtService:src/app/core/auth/services/jwt.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:25",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/auth/user.model.ts",
+        "filePath": "src/app/core/auth/user.model.ts",
+        "name": "user.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/auth/user.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:26",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:User:src/app/core/auth/user.model.ts",
+        "filePath": "src/app/core/auth/user.model.ts",
+        "name": "User",
+        "type": "Interface"
+      },
+      "id": "Interface:User:src/app/core/auth/user.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/auth/services/user.service.ts",
+        "filePath": "src/app/core/auth/services/user.service.ts",
+        "name": "user.service.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/auth/services/user.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "labels": [
+        "Service"
+      ],
+      "properties": {
+        "id": "Service:UserService:src/app/core/auth/services/user.service.ts",
+        "filePath": "src/app/core/auth/services/user.service.ts",
+        "name": "UserService",
+        "providedIn": "root",
+        "type": "Service"
+      },
+      "id": "Service:UserService:src/app/core/auth/services/user.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:29",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/auth/if-authenticated.directive.ts",
+        "filePath": "src/app/core/auth/if-authenticated.directive.ts",
+        "name": "if-authenticated.directive.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/auth/if-authenticated.directive.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "labels": [
+        "Directive"
+      ],
+      "properties": {
+        "selector": "[ifAuthenticated]",
+        "id": "Directive:IfAuthenticatedDirective:src/app/core/auth/if-authenticated.directive.ts",
+        "filePath": "src/app/core/auth/if-authenticated.directive.ts",
+        "name": "IfAuthenticatedDirective",
+        "type": "Directive"
+      },
+      "id": "Directive:IfAuthenticatedDirective:src/app/core/auth/if-authenticated.directive.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/layout/header.component.ts",
+        "filePath": "src/app/core/layout/header.component.ts",
+        "name": "header.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/layout/header.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:32",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-layout-header",
+        "id": "Component:HeaderComponent:src/app/core/layout/header.component.ts",
+        "templateUrl": "./header.component.html",
+        "filePath": "src/app/core/layout/header.component.ts",
+        "name": "HeaderComponent",
+        "type": "Component"
+      },
+      "id": "Component:HeaderComponent:src/app/core/layout/header.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:33",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/layout/footer.component.ts",
+        "filePath": "src/app/core/layout/footer.component.ts",
+        "name": "footer.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/layout/footer.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:34",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-layout-footer",
+        "id": "Component:FooterComponent:src/app/core/layout/footer.component.ts",
+        "templateUrl": "./footer.component.html",
+        "filePath": "src/app/core/layout/footer.component.ts",
+        "name": "FooterComponent",
+        "type": "Component"
+      },
+      "id": "Component:FooterComponent:src/app/core/layout/footer.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:35",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/app.component.ts",
+        "filePath": "src/app/app.component.ts",
+        "name": "app.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/app.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:36",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-root",
+        "id": "Component:AppComponent:src/app/app.component.ts",
+        "templateUrl": "./app.component.html",
+        "filePath": "src/app/app.component.ts",
+        "name": "AppComponent",
+        "type": "Component"
+      },
+      "id": "Component:AppComponent:src/app/app.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:37",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/services/tags.service.ts",
+        "filePath": "src/app/features/article/services/tags.service.ts",
+        "name": "tags.service.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/services/tags.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:38",
+      "labels": [
+        "Service"
+      ],
+      "properties": {
+        "id": "Service:TagsService:src/app/features/article/services/tags.service.ts",
+        "filePath": "src/app/features/article/services/tags.service.ts",
+        "name": "TagsService",
+        "providedIn": "root",
+        "type": "Service"
+      },
+      "id": "Service:TagsService:src/app/features/article/services/tags.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:39",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/models/article-list-config.model.ts",
+        "filePath": "src/app/features/article/models/article-list-config.model.ts",
+        "name": "article-list-config.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/models/article-list-config.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:40",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:ArticleListConfig:src/app/features/article/models/article-list-config.model.ts",
+        "filePath": "src/app/features/article/models/article-list-config.model.ts",
+        "name": "ArticleListConfig",
+        "type": "Interface"
+      },
+      "id": "Interface:ArticleListConfig:src/app/features/article/models/article-list-config.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:133",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/models/profile.model.ts",
+        "filePath": "src/app/features/profile/models/profile.model.ts",
+        "name": "profile.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/models/profile.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:134",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:Profile:src/app/features/profile/models/profile.model.ts",
+        "filePath": "src/app/features/profile/models/profile.model.ts",
+        "name": "Profile",
+        "type": "Interface"
+      },
+      "id": "Interface:Profile:src/app/features/profile/models/profile.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:135",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/models/article.model.ts",
+        "filePath": "src/app/features/article/models/article.model.ts",
+        "name": "article.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/models/article.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:136",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:Article:src/app/features/article/models/article.model.ts",
+        "filePath": "src/app/features/article/models/article.model.ts",
+        "name": "Article",
+        "type": "Interface"
+      },
+      "id": "Interface:Article:src/app/features/article/models/article.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/services/articles.service.ts",
+        "filePath": "src/app/features/article/services/articles.service.ts",
+        "name": "articles.service.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/services/articles.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "labels": [
+        "Service"
+      ],
+      "properties": {
+        "id": "Service:ArticlesService:src/app/features/article/services/articles.service.ts",
+        "filePath": "src/app/features/article/services/articles.service.ts",
+        "name": "ArticlesService",
+        "providedIn": "root",
+        "type": "Service"
+      },
+      "id": "Service:ArticlesService:src/app/features/article/services/articles.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/components/article-meta.component.ts",
+        "filePath": "src/app/features/article/components/article-meta.component.ts",
+        "name": "article-meta.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/components/article-meta.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:140",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-article-meta",
+        "id": "Component:ArticleMetaComponent:src/app/features/article/components/article-meta.component.ts",
+        "filePath": "src/app/features/article/components/article-meta.component.ts",
+        "name": "ArticleMetaComponent",
+        "type": "Component"
+      },
+      "id": "Component:ArticleMetaComponent:src/app/features/article/components/article-meta.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/components/favorite-button.component.ts",
+        "filePath": "src/app/features/article/components/favorite-button.component.ts",
+        "name": "favorite-button.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/components/favorite-button.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:142",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-favorite-button",
+        "id": "Component:FavoriteButtonComponent:src/app/features/article/components/favorite-button.component.ts",
+        "filePath": "src/app/features/article/components/favorite-button.component.ts",
+        "name": "FavoriteButtonComponent",
+        "type": "Component"
+      },
+      "id": "Component:FavoriteButtonComponent:src/app/features/article/components/favorite-button.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/components/article-preview.component.ts",
+        "filePath": "src/app/features/article/components/article-preview.component.ts",
+        "name": "article-preview.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/components/article-preview.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:144",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-article-preview",
+        "id": "Component:ArticlePreviewComponent:src/app/features/article/components/article-preview.component.ts",
+        "filePath": "src/app/features/article/components/article-preview.component.ts",
+        "name": "ArticlePreviewComponent",
+        "type": "Component"
+      },
+      "id": "Component:ArticlePreviewComponent:src/app/features/article/components/article-preview.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:145",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/models/loading-state.model.ts",
+        "filePath": "src/app/core/models/loading-state.model.ts",
+        "name": "loading-state.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/models/loading-state.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/components/article-list.component.ts",
+        "filePath": "src/app/features/article/components/article-list.component.ts",
+        "name": "article-list.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/components/article-list.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:147",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-article-list",
+        "id": "Component:ArticleListComponent:src/app/features/article/components/article-list.component.ts",
+        "filePath": "src/app/features/article/components/article-list.component.ts",
+        "name": "ArticleListComponent",
+        "type": "Component"
+      },
+      "id": "Component:ArticleListComponent:src/app/features/article/components/article-list.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/pages/home/home.component.ts",
+        "filePath": "src/app/features/article/pages/home/home.component.ts",
+        "name": "home.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/pages/home/home.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:149",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-home-page",
+        "id": "Component:HomeComponent:src/app/features/article/pages/home/home.component.ts",
+        "templateUrl": "./home.component.html",
+        "filePath": "src/app/features/article/pages/home/home.component.ts",
+        "styleUrls": [
+          "\"./home.component.css\""
+        ],
+        "name": "HomeComponent",
+        "type": "Component"
+      },
+      "id": "Component:HomeComponent:src/app/features/article/pages/home/home.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:150",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/models/errors.model.ts",
+        "filePath": "src/app/core/models/errors.model.ts",
+        "name": "errors.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/models/errors.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:151",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:Errors:src/app/core/models/errors.model.ts",
+        "filePath": "src/app/core/models/errors.model.ts",
+        "name": "Errors",
+        "type": "Interface"
+      },
+      "id": "Interface:Errors:src/app/core/models/errors.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:152",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/shared/components/list-errors.component.ts",
+        "filePath": "src/app/shared/components/list-errors.component.ts",
+        "name": "list-errors.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/shared/components/list-errors.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:153",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-list-errors",
+        "id": "Component:ListErrorsComponent:src/app/shared/components/list-errors.component.ts",
+        "templateUrl": "./list-errors.component.html",
+        "filePath": "src/app/shared/components/list-errors.component.ts",
+        "name": "ListErrorsComponent",
+        "type": "Component"
+      },
+      "id": "Component:ListErrorsComponent:src/app/shared/components/list-errors.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/auth/auth.component.ts",
+        "filePath": "src/app/core/auth/auth.component.ts",
+        "name": "auth.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/auth/auth.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:155",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:AuthForm:src/app/core/auth/auth.component.ts",
+        "filePath": "src/app/core/auth/auth.component.ts",
+        "name": "AuthForm",
+        "type": "Interface"
+      },
+      "id": "Interface:AuthForm:src/app/core/auth/auth.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-auth-page",
+        "id": "Component:AuthComponent:src/app/core/auth/auth.component.ts",
+        "templateUrl": "./auth.component.html",
+        "filePath": "src/app/core/auth/auth.component.ts",
+        "name": "AuthComponent",
+        "type": "Component"
+      },
+      "id": "Component:AuthComponent:src/app/core/auth/auth.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/settings/settings.component.ts",
+        "filePath": "src/app/features/settings/settings.component.ts",
+        "name": "settings.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/settings/settings.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:158",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:SettingsForm:src/app/features/settings/settings.component.ts",
+        "filePath": "src/app/features/settings/settings.component.ts",
+        "name": "SettingsForm",
+        "type": "Interface"
+      },
+      "id": "Interface:SettingsForm:src/app/features/settings/settings.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:159",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-settings-page",
+        "id": "Component:SettingsComponent:src/app/features/settings/settings.component.ts",
+        "templateUrl": "./settings.component.html",
+        "filePath": "src/app/features/settings/settings.component.ts",
+        "name": "SettingsComponent",
+        "type": "Component"
+      },
+      "id": "Component:SettingsComponent:src/app/features/settings/settings.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/services/profile.service.ts",
+        "filePath": "src/app/features/profile/services/profile.service.ts",
+        "name": "profile.service.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/services/profile.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "labels": [
+        "Service"
+      ],
+      "properties": {
+        "id": "Service:ProfileService:src/app/features/profile/services/profile.service.ts",
+        "filePath": "src/app/features/profile/services/profile.service.ts",
+        "name": "ProfileService",
+        "providedIn": "root",
+        "type": "Service"
+      },
+      "id": "Service:ProfileService:src/app/features/profile/services/profile.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/components/follow-button.component.ts",
+        "filePath": "src/app/features/profile/components/follow-button.component.ts",
+        "name": "follow-button.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/components/follow-button.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:163",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-follow-button",
+        "id": "Component:FollowButtonComponent:src/app/features/profile/components/follow-button.component.ts",
+        "filePath": "src/app/features/profile/components/follow-button.component.ts",
+        "name": "FollowButtonComponent",
+        "type": "Component"
+      },
+      "id": "Component:FollowButtonComponent:src/app/features/profile/components/follow-button.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/pages/profile/profile.component.ts",
+        "filePath": "src/app/features/profile/pages/profile/profile.component.ts",
+        "name": "profile.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/pages/profile/profile.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-profile-page",
+        "id": "Component:ProfileComponent:src/app/features/profile/pages/profile/profile.component.ts",
+        "templateUrl": "./profile.component.html",
+        "filePath": "src/app/features/profile/pages/profile/profile.component.ts",
+        "name": "ProfileComponent",
+        "type": "Component"
+      },
+      "id": "Component:ProfileComponent:src/app/features/profile/pages/profile/profile.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/components/profile-articles.component.ts",
+        "filePath": "src/app/features/profile/components/profile-articles.component.ts",
+        "name": "profile-articles.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/components/profile-articles.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:167",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-profile-articles",
+        "id": "Component:ProfileArticlesComponent:src/app/features/profile/components/profile-articles.component.ts",
+        "filePath": "src/app/features/profile/components/profile-articles.component.ts",
+        "name": "ProfileArticlesComponent",
+        "type": "Component"
+      },
+      "id": "Component:ProfileArticlesComponent:src/app/features/profile/components/profile-articles.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/components/profile-favorites.component.ts",
+        "filePath": "src/app/features/profile/components/profile-favorites.component.ts",
+        "name": "profile-favorites.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/components/profile-favorites.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:169",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-profile-favorites",
+        "id": "Component:ProfileFavoritesComponent:src/app/features/profile/components/profile-favorites.component.ts",
+        "filePath": "src/app/features/profile/components/profile-favorites.component.ts",
+        "name": "ProfileFavoritesComponent",
+        "type": "Component"
+      },
+      "id": "Component:ProfileFavoritesComponent:src/app/features/profile/components/profile-favorites.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:170",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/profile/profile.routes.ts",
+        "filePath": "src/app/features/profile/profile.routes.ts",
+        "name": "profile.routes.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/profile/profile.routes.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/pages/editor/editor.component.ts",
+        "filePath": "src/app/features/article/pages/editor/editor.component.ts",
+        "name": "editor.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/pages/editor/editor.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:172",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:ArticleForm:src/app/features/article/pages/editor/editor.component.ts",
+        "filePath": "src/app/features/article/pages/editor/editor.component.ts",
+        "name": "ArticleForm",
+        "type": "Interface"
+      },
+      "id": "Interface:ArticleForm:src/app/features/article/pages/editor/editor.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-editor-page",
+        "id": "Component:EditorComponent:src/app/features/article/pages/editor/editor.component.ts",
+        "templateUrl": "./editor.component.html",
+        "filePath": "src/app/features/article/pages/editor/editor.component.ts",
+        "name": "EditorComponent",
+        "type": "Component"
+      },
+      "id": "Component:EditorComponent:src/app/features/article/pages/editor/editor.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:174",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/models/comment.model.ts",
+        "filePath": "src/app/features/article/models/comment.model.ts",
+        "name": "comment.model.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/models/comment.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:175",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "id": "Interface:Comment:src/app/features/article/models/comment.model.ts",
+        "filePath": "src/app/features/article/models/comment.model.ts",
+        "name": "Comment",
+        "type": "Interface"
+      },
+      "id": "Interface:Comment:src/app/features/article/models/comment.model.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/services/comments.service.ts",
+        "filePath": "src/app/features/article/services/comments.service.ts",
+        "name": "comments.service.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/services/comments.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:177",
+      "labels": [
+        "Service"
+      ],
+      "properties": {
+        "id": "Service:CommentsService:src/app/features/article/services/comments.service.ts",
+        "filePath": "src/app/features/article/services/comments.service.ts",
+        "name": "CommentsService",
+        "providedIn": "root",
+        "type": "Service"
+      },
+      "id": "Service:CommentsService:src/app/features/article/services/comments.service.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:178",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/shared/pipes/markdown.pipe.ts",
+        "filePath": "src/app/shared/pipes/markdown.pipe.ts",
+        "name": "markdown.pipe.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/shared/pipes/markdown.pipe.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:179",
+      "labels": [
+        "Pipe"
+      ],
+      "properties": {
+        "id": "Pipe:MarkdownPipe:src/app/shared/pipes/markdown.pipe.ts",
+        "pipeName": "markdown",
+        "filePath": "src/app/shared/pipes/markdown.pipe.ts",
+        "name": "MarkdownPipe",
+        "type": "Pipe"
+      },
+      "id": "Pipe:MarkdownPipe:src/app/shared/pipes/markdown.pipe.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/components/article-comment.component.ts",
+        "filePath": "src/app/features/article/components/article-comment.component.ts",
+        "name": "article-comment.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/components/article-comment.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:181",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-article-comment",
+        "id": "Component:ArticleCommentComponent:src/app/features/article/components/article-comment.component.ts",
+        "filePath": "src/app/features/article/components/article-comment.component.ts",
+        "name": "ArticleCommentComponent",
+        "type": "Component"
+      },
+      "id": "Component:ArticleCommentComponent:src/app/features/article/components/article-comment.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/features/article/pages/article/article.component.ts",
+        "filePath": "src/app/features/article/pages/article/article.component.ts",
+        "name": "article.component.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/features/article/pages/article/article.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "labels": [
+        "Component"
+      ],
+      "properties": {
+        "selector": "app-article-page",
+        "id": "Component:ArticleComponent:src/app/features/article/pages/article/article.component.ts",
+        "templateUrl": "./article.component.html",
+        "filePath": "src/app/features/article/pages/article/article.component.ts",
+        "name": "ArticleComponent",
+        "type": "Component"
+      },
+      "id": "Component:ArticleComponent:src/app/features/article/pages/article/article.component.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:184",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/app.routes.ts",
+        "filePath": "src/app/app.routes.ts",
+        "name": "app.routes.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/app.routes.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:185",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/interceptors/api.interceptor.ts",
+        "filePath": "src/app/core/interceptors/api.interceptor.ts",
+        "name": "api.interceptor.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/interceptors/api.interceptor.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:186",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/interceptors/token.interceptor.ts",
+        "filePath": "src/app/core/interceptors/token.interceptor.ts",
+        "name": "token.interceptor.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/interceptors/token.interceptor.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:187",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/core/interceptors/error.interceptor.ts",
+        "filePath": "src/app/core/interceptors/error.interceptor.ts",
+        "name": "error.interceptor.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/core/interceptors/error.interceptor.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/app/app.config.ts",
+        "filePath": "src/app/app.config.ts",
+        "name": "app.config.ts",
+        "type": "File"
+      },
+      "id": "File:src/app/app.config.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:189",
+      "labels": [
+        "File"
+      ],
+      "properties": {
+        "id": "File:src/main.ts",
+        "filePath": "src/main.ts",
+        "name": "main.ts",
+        "type": "File"
+      },
+      "id": "File:src/main.ts"
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/core",
+        "originalId": "External:@angular/core"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "rxjs",
+        "originalId": "External:rxjs"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:192",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./jwt.service",
+        "originalId": "External:./jwt.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "rxjs/operators",
+        "originalId": "External:rxjs/operators"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/common/http",
+        "originalId": "External:@angular/common/http"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:212",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../user.model",
+        "originalId": "External:../user.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/router",
+        "originalId": "External:@angular/router"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:214",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "HttpClient",
+        "originalId": "Unresolved:HttpClient"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "Router",
+        "originalId": "Unresolved:Router"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:216",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./services/user.service",
+        "originalId": "External:./services/user.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/core/rxjs-interop",
+        "originalId": "External:@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:218",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "TemplateRef<T>",
+        "originalId": "Unresolved:TemplateRef<T>"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:219",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "ViewContainerRef",
+        "originalId": "Unresolved:ViewContainerRef"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "OnInit",
+        "originalId": "Unresolved:OnInit"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:221",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../auth/services/user.service",
+        "originalId": "External:../auth/services/user.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/common",
+        "originalId": "External:@angular/common"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:223",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../auth/if-authenticated.directive",
+        "originalId": "External:../auth/if-authenticated.directive"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:224",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/layout/header.component",
+        "originalId": "External:./core/layout/header.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:225",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./core/layout/footer.component",
+        "originalId": "External:./core/layout/footer.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:226",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../profile/models/profile.model",
+        "originalId": "External:../../profile/models/profile.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:227",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../models/article-list-config.model",
+        "originalId": "External:../models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:228",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../models/article.model",
+        "originalId": "External:../models/article.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:229",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../services/articles.service",
+        "originalId": "External:../services/articles.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:230",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../core/auth/services/user.service",
+        "originalId": "External:../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:231",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./article-meta.component",
+        "originalId": "External:./article-meta.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:232",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./favorite-button.component",
+        "originalId": "External:./favorite-button.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:233",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./article-preview.component",
+        "originalId": "External:./article-preview.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:234",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../core/models/loading-state.model",
+        "originalId": "External:../../../core/models/loading-state.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:235",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../services/tags.service",
+        "originalId": "External:../../services/tags.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:236",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../models/article-list-config.model",
+        "originalId": "External:../../models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:237",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../components/article-list.component",
+        "originalId": "External:../../components/article-list.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:238",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../../core/auth/services/user.service",
+        "originalId": "External:../../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:239",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@rx-angular/template/let",
+        "originalId": "External:@rx-angular/template/let"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:240",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../../core/auth/if-authenticated.directive",
+        "originalId": "External:../../../../core/auth/if-authenticated.directive"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:241",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../core/models/errors.model",
+        "originalId": "External:../../core/models/errors.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:242",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/forms",
+        "originalId": "External:@angular/forms"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:243",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../shared/components/list-errors.component",
+        "originalId": "External:../../shared/components/list-errors.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:244",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../models/errors.model",
+        "originalId": "External:../models/errors.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "ActivatedRoute",
+        "originalId": "Unresolved:ActivatedRoute"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:246",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../core/auth/user.model",
+        "originalId": "External:../../core/auth/user.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:247",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../core/auth/services/user.service",
+        "originalId": "External:../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:248",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../models/profile.model",
+        "originalId": "External:../models/profile.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:249",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../services/profile.service",
+        "originalId": "External:../services/profile.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:250",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../models/profile.model",
+        "originalId": "External:../../models/profile.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:251",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../services/profile.service",
+        "originalId": "External:../../services/profile.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:252",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../components/follow-button.component",
+        "originalId": "External:../../components/follow-button.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:253",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../article/components/article-list.component",
+        "originalId": "External:../../article/components/article-list.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:254",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../article/models/article-list-config.model",
+        "originalId": "External:../../article/models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:255",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "./pages/profile/profile.component",
+        "originalId": "External:./pages/profile/profile.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:256",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../../core/models/errors.model",
+        "originalId": "External:../../../../core/models/errors.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:257",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../services/articles.service",
+        "originalId": "External:../../services/articles.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:258",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../../shared/components/list-errors.component",
+        "originalId": "External:../../../../shared/components/list-errors.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:277",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../models/comment.model",
+        "originalId": "External:../models/comment.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:278",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "@angular/platform-browser",
+        "originalId": "External:@angular/platform-browser"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:279",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "Unresolved",
+        "name": "PipeTransform",
+        "originalId": "Unresolved:PipeTransform"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:280",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../core/auth/user.model",
+        "originalId": "External:../../../core/auth/user.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:281",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../../core/auth/user.model",
+        "originalId": "External:../../../../core/auth/user.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:282",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../models/article.model",
+        "originalId": "External:../../models/article.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:283",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../services/comments.service",
+        "originalId": "External:../../services/comments.service"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:284",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../components/article-meta.component",
+        "originalId": "External:../../components/article-meta.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:285",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../../shared/pipes/markdown.pipe",
+        "originalId": "External:../../../../shared/pipes/markdown.pipe"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:286",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../components/article-comment.component",
+        "originalId": "External:../../components/article-comment.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:287",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../models/comment.model",
+        "originalId": "External:../../models/comment.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:288",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../profile/models/profile.model",
+        "originalId": "External:../../../profile/models/profile.model"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:289",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../components/favorite-button.component",
+        "originalId": "External:../../components/favorite-button.component"
+      }
+    },
+    {
+      "_id": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:290",
+      "labels": [
+        "ExternalOrUnresolved"
+      ],
+      "properties": {
+        "status": "External",
+        "name": "../../../profile/components/follow-button.component",
+        "originalId": "External:../../../profile/components/follow-button.component"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:0",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:290",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../profile/components/follow-button.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:1",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:2",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "route"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:3",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "articleService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:4",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:177",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "commentsService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:5",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:6",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:7",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:183",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:8",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:184",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:9",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:184",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:10",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:184",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:0",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:11",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:184",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:12",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:185",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:13",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:186",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:14",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:186",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:15",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:186",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:1",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../auth/services/jwt.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:16",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:187",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:17",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:187",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:18",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:187",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:19",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:20",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:21",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:2",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./app.routes"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:22",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:23",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:3",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/auth/services/jwt.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:24",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:0",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:25",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:4",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/interceptors/api.interceptor"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:26",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:5",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/interceptors/token.interceptor"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:6",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/interceptors/error.interceptor"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:188",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:29",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:189",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:278",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/platform-browser"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:189",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:7",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./app/app.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:189",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:8",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./app/app.config"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:71",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:23",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:72",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:24",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:23",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:73",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:26",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:25",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:74",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:75",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:76",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:192",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./jwt.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:77",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:78",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:79",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:212",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../user.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:80",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:81",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:27",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:82",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:214",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:83",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:24",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "jwtService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:84",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:85",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:29",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:86",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:29",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:216",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:87",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:29",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:88",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:29",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:89",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:218",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "templateRef"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:90",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:91",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:219",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "viewContainer"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:92",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:30",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:93",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:94",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:221",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:95",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:96",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:97",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:223",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../auth/if-authenticated.directive"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:98",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:32",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:31",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:99",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:33",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:100",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:33",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:101",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:33",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:102",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:34",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:33",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:103",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:35",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:104",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:35",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:224",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/layout/header.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:105",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:35",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:106",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:35",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:225",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./core/layout/footer.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:107",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:36",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:35",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:108",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:37",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:109",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:37",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:110",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:37",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:111",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:37",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:112",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:38",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:37",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:113",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:38",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:214",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:114",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:40",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:39",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:115",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:134",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:133",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:116",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:135",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:226",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../profile/models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:117",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:136",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:135",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:118",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:119",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:120",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:121",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:122",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:227",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:123",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:228",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:124",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:125",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:214",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:126",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:127",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:228",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:128",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:129",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:130",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:140",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:131",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:132",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:133",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:134",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:135",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:229",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../services/articles.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:136",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:230",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:137",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:228",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:139",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:142",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:140",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:142",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "articleService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:141",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:142",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:142",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:142",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:144",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:228",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:145",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:231",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./article-meta.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:147",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:232",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./favorite-button.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:144",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:143",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:149",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:150",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:229",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../services/articles.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:151",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:227",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:152",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:228",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/article.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:153",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:233",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./article-preview.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:155",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:234",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../core/models/loading-state.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:147",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:146",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:158",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:147",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "articlesService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:159",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:235",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../services/tags.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:236",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:163",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:237",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../components/article-list.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:238",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:167",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:239",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@rx-angular/template/let"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:240",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/if-authenticated.directive"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:169",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:170",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:149",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:148",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:149",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:172",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:149",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:149",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:174",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:151",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:150",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:175",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:152",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:152",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:241",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../core/models/errors.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:282",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:153",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:152",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:283",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:284",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:242",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/forms"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:285",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:286",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:243",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../shared/components/list-errors.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:287",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:244",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/errors.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:288",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:216",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:289",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:290",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:155",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:291",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:154",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:292",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "route"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:293",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:294",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:295",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:156",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:296",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:297",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:242",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/forms"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:298",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:299",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:246",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../core/auth/user.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:300",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:247",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:301",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:243",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../shared/components/list-errors.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:302",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:241",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../core/models/errors.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:303",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:304",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:158",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:305",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:159",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:157",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:306",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:159",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:307",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:159",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:308",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:159",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:309",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:310",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:311",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:312",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:248",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:313",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:314",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:160",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:315",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:214",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:316",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:317",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:318",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:319",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:320",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:249",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../services/profile.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:321",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:230",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:322",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:248",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:323",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:324",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:325",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:163",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:162",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:326",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:163",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "profileService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:327",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:163",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:328",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:163",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:329",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:330",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:331",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:332",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:333",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:238",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:334",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:250",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:335",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:251",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../services/profile.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:336",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:337",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:252",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../components/follow-button.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:338",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:164",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:339",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "route"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:340",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:341",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:342",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "profileService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:343",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:165",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:344",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:345",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:346",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:253",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../article/components/article-list.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:347",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:249",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../services/profile.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:348",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:248",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:349",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:254",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../article/models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:350",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:351",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:167",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:166",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:352",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:167",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "route"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:353",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:167",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "profileService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:354",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:167",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:355",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:356",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:357",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:253",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../article/components/article-list.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:358",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:249",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../services/profile.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:359",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:248",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:360",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:254",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../article/models/article-list-config.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:361",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:362",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:169",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:168",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:363",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:169",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "route"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:364",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:169",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:161",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "profileService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:365",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:169",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:366",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:170",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:367",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:170",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:255",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "./pages/profile/profile.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:368",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:369",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:242",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/forms"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:370",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:371",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:372",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:256",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/models/errors.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:373",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:257",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../services/articles.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:374",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:238",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:375",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:258",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../shared/components/list-errors.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:376",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:377",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:172",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:378",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:171",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:379",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:138",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "articleService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:380",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:245",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "route"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:381",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:215",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:382",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:28",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "userService"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:383",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:173",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:220",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:384",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:174",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:226",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../profile/models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:385",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:175",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:174",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:386",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:493",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:494",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:495",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:211",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common/http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:496",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:277",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/comment.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:497",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:177",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:176",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:498",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:177",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:214",
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "http"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:499",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:178",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:500",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:178",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:278",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/platform-browser"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:501",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:179",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:178",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:502",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:179",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:279",
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:503",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:504",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:230",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:505",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:280",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../core/auth/user.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:506",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:507",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:508",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:277",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../models/comment.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:509",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:510",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:181",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:180",
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:511",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:190",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:512",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:242",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/forms"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:513",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:213",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/router"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:514",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:281",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/user.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:515",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:282",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../models/article.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:516",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:257",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../services/articles.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:517",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:283",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../services/comments.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:518",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:238",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/services/user.service"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:519",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:284",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../components/article-meta.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:520",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:222",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/common"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:521",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:285",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../shared/pipes/markdown.pipe"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:522",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:258",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../shared/components/list-errors.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:523",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:286",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../components/article-comment.component"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:524",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:193",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs/operators"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:525",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:191",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "rxjs"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:526",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:287",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../models/comment.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:527",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:240",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/auth/if-authenticated.directive"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:528",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:256",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../../core/models/errors.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:529",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:288",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../../profile/models/profile.model"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:530",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:217",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "@angular/core/rxjs-interop"
+      }
+    },
+    {
+      "_id": "5:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:531",
+      "_sourceId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:182",
+      "_targetId": "4:95f7362c-4d9f-4d67-9dc0-c8fffb720ba4:289",
+      "type": "IMPORTS",
+      "properties": {
+        "from": "../../components/favorite-button.component"
+      }
+    }
+  ]
+}

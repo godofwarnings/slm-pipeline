@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "type": "Component",
+      "properties": {
+        "selector": "string",
+        "id": "string",
+        "templateUrl": "string",
+        "filePath": "string",
+        "name": "string",
+        "type": "string"
+      }
+    },
+    {
+      "type": "Directive",
+      "properties": {
+        "selector": "string",
+        "id": "string",
+        "filePath": "string",
+        "name": "string",
+        "type": "string"
+      }
+    },
+    {
+      "type": "File",
+      "properties": {
+        "id": "string",
+        "filePath": "string",
+        "name": "string",
+        "type": "string"
+      }
+    },
+    {
+      "type": "Interface",
+      "properties": {
+        "id": "string",
+        "filePath": "string",
+        "name": "string",
+        "type": "string"
+      }
+    },
+    {
+      "type": "Pipe",
+      "properties": {
+        "id": "string",
+        "pipeName": "string",
+        "filePath": "string",
+        "name": "string",
+        "type": "string"
+      }
+    },
+    {
+      "type": "Service",
+      "properties": {
+        "id": "string",
+        "filePath": "string",
+        "name": "string",
+        "providedIn": "string",
+        "type": "string"
+      }
+    },
+    {
+      "type": "ExternalOrUnresolved",
+      "properties": {
+        "status": "string",
+        "name": "string",
+        "originalId": "string"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "DEFINED_IN",
+      "properties": {}
+    },
+    {
+      "type": "IMPLEMENTS",
+      "properties": {}
+    },
+    {
+      "type": "IMPORTS",
+      "properties": {
+        "from": "string"
+      }
+    },
+    {
+      "type": "INJECTS",
+      "properties": {
+        "parameterName": "string"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2372 @@
+{
+  "nodes": [
+    {
+      "id": "File:src/app/core/auth/services/jwt.service.ts",
+      "type": "File",
+      "name": "jwt.service.ts",
+      "filePath": "src/app/core/auth/services/jwt.service.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service:JwtService:src/app/core/auth/services/jwt.service.ts",
+      "type": "Service",
+      "name": "JwtService",
+      "filePath": "src/app/core/auth/services/jwt.service.ts",
+      "properties": {
+        "providedIn": "root"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/core/auth/user.model.ts",
+      "type": "File",
+      "name": "user.model.ts",
+      "filePath": "src/app/core/auth/user.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "Interface:User:src/app/core/auth/user.model.ts",
+      "type": "Interface",
+      "name": "User",
+      "filePath": "src/app/core/auth/user.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/core/auth/services/user.service.ts",
+      "type": "File",
+      "name": "user.service.ts",
+      "filePath": "src/app/core/auth/services/user.service.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./jwt.service",
+          "properties": {
+            "from": "./jwt.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../user.model",
+          "properties": {
+            "from": "../user.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service:UserService:src/app/core/auth/services/user.service.ts",
+      "type": "Service",
+      "name": "UserService",
+      "filePath": "src/app/core/auth/services/user.service.ts",
+      "properties": {
+        "providedIn": "root"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:HttpClient",
+          "properties": {
+            "parameterName": "http"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:JwtService:src/app/core/auth/services/jwt.service.ts",
+          "properties": {
+            "parameterName": "jwtService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/core/auth/if-authenticated.directive.ts",
+      "type": "File",
+      "name": "if-authenticated.directive.ts",
+      "filePath": "src/app/core/auth/if-authenticated.directive.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./services/user.service",
+          "properties": {
+            "from": "./services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Directive:IfAuthenticatedDirective:src/app/core/auth/if-authenticated.directive.ts",
+      "type": "Directive",
+      "name": "IfAuthenticatedDirective",
+      "filePath": "src/app/core/auth/if-authenticated.directive.ts",
+      "properties": {
+        "selector": "[ifAuthenticated]"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:TemplateRef<T>",
+          "properties": {
+            "parameterName": "templateRef"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ViewContainerRef",
+          "properties": {
+            "parameterName": "viewContainer"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/core/layout/header.component.ts",
+      "type": "File",
+      "name": "header.component.ts",
+      "filePath": "src/app/core/layout/header.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../auth/services/user.service",
+          "properties": {
+            "from": "../auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../auth/if-authenticated.directive",
+          "properties": {
+            "from": "../auth/if-authenticated.directive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:HeaderComponent:src/app/core/layout/header.component.ts",
+      "type": "Component",
+      "name": "HeaderComponent",
+      "filePath": "src/app/core/layout/header.component.ts",
+      "properties": {
+        "selector": "app-layout-header",
+        "templateUrl": "./header.component.html"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/core/layout/footer.component.ts",
+      "type": "File",
+      "name": "footer.component.ts",
+      "filePath": "src/app/core/layout/footer.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:FooterComponent:src/app/core/layout/footer.component.ts",
+      "type": "Component",
+      "name": "FooterComponent",
+      "filePath": "src/app/core/layout/footer.component.ts",
+      "properties": {
+        "selector": "app-layout-footer",
+        "templateUrl": "./footer.component.html"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/app.component.ts",
+      "type": "File",
+      "name": "app.component.ts",
+      "filePath": "src/app/app.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/layout/header.component",
+          "properties": {
+            "from": "./core/layout/header.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/layout/footer.component",
+          "properties": {
+            "from": "./core/layout/footer.component"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:AppComponent:src/app/app.component.ts",
+      "type": "Component",
+      "name": "AppComponent",
+      "filePath": "src/app/app.component.ts",
+      "properties": {
+        "selector": "app-root",
+        "templateUrl": "./app.component.html"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/services/tags.service.ts",
+      "type": "File",
+      "name": "tags.service.ts",
+      "filePath": "src/app/features/article/services/tags.service.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service:TagsService:src/app/features/article/services/tags.service.ts",
+      "type": "Service",
+      "name": "TagsService",
+      "filePath": "src/app/features/article/services/tags.service.ts",
+      "properties": {
+        "providedIn": "root"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:HttpClient",
+          "properties": {
+            "parameterName": "http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/models/article-list-config.model.ts",
+      "type": "File",
+      "name": "article-list-config.model.ts",
+      "filePath": "src/app/features/article/models/article-list-config.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "Interface:ArticleListConfig:src/app/features/article/models/article-list-config.model.ts",
+      "type": "Interface",
+      "name": "ArticleListConfig",
+      "filePath": "src/app/features/article/models/article-list-config.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/profile/models/profile.model.ts",
+      "type": "File",
+      "name": "profile.model.ts",
+      "filePath": "src/app/features/profile/models/profile.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "Interface:Profile:src/app/features/profile/models/profile.model.ts",
+      "type": "Interface",
+      "name": "Profile",
+      "filePath": "src/app/features/profile/models/profile.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/models/article.model.ts",
+      "type": "File",
+      "name": "article.model.ts",
+      "filePath": "src/app/features/article/models/article.model.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../profile/models/profile.model",
+          "properties": {
+            "from": "../../profile/models/profile.model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Interface:Article:src/app/features/article/models/article.model.ts",
+      "type": "Interface",
+      "name": "Article",
+      "filePath": "src/app/features/article/models/article.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/services/articles.service.ts",
+      "type": "File",
+      "name": "articles.service.ts",
+      "filePath": "src/app/features/article/services/articles.service.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article-list-config.model",
+          "properties": {
+            "from": "../models/article-list-config.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article.model",
+          "properties": {
+            "from": "../models/article.model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service:ArticlesService:src/app/features/article/services/articles.service.ts",
+      "type": "Service",
+      "name": "ArticlesService",
+      "filePath": "src/app/features/article/services/articles.service.ts",
+      "properties": {
+        "providedIn": "root"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:HttpClient",
+          "properties": {
+            "parameterName": "http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/components/article-meta.component.ts",
+      "type": "File",
+      "name": "article-meta.component.ts",
+      "filePath": "src/app/features/article/components/article-meta.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article.model",
+          "properties": {
+            "from": "../models/article.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ArticleMetaComponent:src/app/features/article/components/article-meta.component.ts",
+      "type": "Component",
+      "name": "ArticleMetaComponent",
+      "filePath": "src/app/features/article/components/article-meta.component.ts",
+      "properties": {
+        "selector": "app-article-meta"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/components/favorite-button.component.ts",
+      "type": "File",
+      "name": "favorite-button.component.ts",
+      "filePath": "src/app/features/article/components/favorite-button.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../services/articles.service",
+          "properties": {
+            "from": "../services/articles.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article.model",
+          "properties": {
+            "from": "../models/article.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:FavoriteButtonComponent:src/app/features/article/components/favorite-button.component.ts",
+      "type": "Component",
+      "name": "FavoriteButtonComponent",
+      "filePath": "src/app/features/article/components/favorite-button.component.ts",
+      "properties": {
+        "selector": "app-favorite-button"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ArticlesService:src/app/features/article/services/articles.service.ts",
+          "properties": {
+            "parameterName": "articleService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/components/article-preview.component.ts",
+      "type": "File",
+      "name": "article-preview.component.ts",
+      "filePath": "src/app/features/article/components/article-preview.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article.model",
+          "properties": {
+            "from": "../models/article.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./article-meta.component",
+          "properties": {
+            "from": "./article-meta.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./favorite-button.component",
+          "properties": {
+            "from": "./favorite-button.component"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ArticlePreviewComponent:src/app/features/article/components/article-preview.component.ts",
+      "type": "Component",
+      "name": "ArticlePreviewComponent",
+      "filePath": "src/app/features/article/components/article-preview.component.ts",
+      "properties": {
+        "selector": "app-article-preview"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/core/models/loading-state.model.ts",
+      "type": "File",
+      "name": "loading-state.model.ts",
+      "filePath": "src/app/core/models/loading-state.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/components/article-list.component.ts",
+      "type": "File",
+      "name": "article-list.component.ts",
+      "filePath": "src/app/features/article/components/article-list.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../services/articles.service",
+          "properties": {
+            "from": "../services/articles.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article-list-config.model",
+          "properties": {
+            "from": "../models/article-list-config.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/article.model",
+          "properties": {
+            "from": "../models/article.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./article-preview.component",
+          "properties": {
+            "from": "./article-preview.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../core/models/loading-state.model",
+          "properties": {
+            "from": "../../../core/models/loading-state.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ArticleListComponent:src/app/features/article/components/article-list.component.ts",
+      "type": "Component",
+      "name": "ArticleListComponent",
+      "filePath": "src/app/features/article/components/article-list.component.ts",
+      "properties": {
+        "selector": "app-article-list"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ArticlesService:src/app/features/article/services/articles.service.ts",
+          "properties": {
+            "parameterName": "articlesService"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/pages/home/home.component.ts",
+      "type": "File",
+      "name": "home.component.ts",
+      "filePath": "src/app/features/article/pages/home/home.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../services/tags.service",
+          "properties": {
+            "from": "../../services/tags.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../models/article-list-config.model",
+          "properties": {
+            "from": "../../models/article-list-config.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../components/article-list.component",
+          "properties": {
+            "from": "../../components/article-list.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@rx-angular/template/let",
+          "properties": {
+            "from": "@rx-angular/template/let"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/if-authenticated.directive",
+          "properties": {
+            "from": "../../../../core/auth/if-authenticated.directive"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:HomeComponent:src/app/features/article/pages/home/home.component.ts",
+      "type": "Component",
+      "name": "HomeComponent",
+      "filePath": "src/app/features/article/pages/home/home.component.ts",
+      "properties": {
+        "selector": "app-home-page",
+        "templateUrl": "./home.component.html",
+        "styleUrls": [
+          "\"./home.component.css\""
+        ]
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/core/models/errors.model.ts",
+      "type": "File",
+      "name": "errors.model.ts",
+      "filePath": "src/app/core/models/errors.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "Interface:Errors:src/app/core/models/errors.model.ts",
+      "type": "Interface",
+      "name": "Errors",
+      "filePath": "src/app/core/models/errors.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/shared/components/list-errors.component.ts",
+      "type": "File",
+      "name": "list-errors.component.ts",
+      "filePath": "src/app/shared/components/list-errors.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../core/models/errors.model",
+          "properties": {
+            "from": "../../core/models/errors.model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ListErrorsComponent:src/app/shared/components/list-errors.component.ts",
+      "type": "Component",
+      "name": "ListErrorsComponent",
+      "filePath": "src/app/shared/components/list-errors.component.ts",
+      "properties": {
+        "selector": "app-list-errors",
+        "templateUrl": "./list-errors.component.html"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/core/auth/auth.component.ts",
+      "type": "File",
+      "name": "auth.component.ts",
+      "filePath": "src/app/core/auth/auth.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/forms",
+          "properties": {
+            "from": "@angular/forms"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../shared/components/list-errors.component",
+          "properties": {
+            "from": "../../shared/components/list-errors.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/errors.model",
+          "properties": {
+            "from": "../models/errors.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./services/user.service",
+          "properties": {
+            "from": "./services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Interface:AuthForm:src/app/core/auth/auth.component.ts",
+      "type": "Interface",
+      "name": "AuthForm",
+      "filePath": "src/app/core/auth/auth.component.ts",
+      "relationships": []
+    },
+    {
+      "id": "Component:AuthComponent:src/app/core/auth/auth.component.ts",
+      "type": "Component",
+      "name": "AuthComponent",
+      "filePath": "src/app/core/auth/auth.component.ts",
+      "properties": {
+        "selector": "app-auth-page",
+        "templateUrl": "./auth.component.html"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ActivatedRoute",
+          "properties": {
+            "parameterName": "route"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/settings/settings.component.ts",
+      "type": "File",
+      "name": "settings.component.ts",
+      "filePath": "src/app/features/settings/settings.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/forms",
+          "properties": {
+            "from": "@angular/forms"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../core/auth/user.model",
+          "properties": {
+            "from": "../../core/auth/user.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../shared/components/list-errors.component",
+          "properties": {
+            "from": "../../shared/components/list-errors.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../core/models/errors.model",
+          "properties": {
+            "from": "../../core/models/errors.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Interface:SettingsForm:src/app/features/settings/settings.component.ts",
+      "type": "Interface",
+      "name": "SettingsForm",
+      "filePath": "src/app/features/settings/settings.component.ts",
+      "relationships": []
+    },
+    {
+      "id": "Component:SettingsComponent:src/app/features/settings/settings.component.ts",
+      "type": "Component",
+      "name": "SettingsComponent",
+      "filePath": "src/app/features/settings/settings.component.ts",
+      "properties": {
+        "selector": "app-settings-page",
+        "templateUrl": "./settings.component.html"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/profile/services/profile.service.ts",
+      "type": "File",
+      "name": "profile.service.ts",
+      "filePath": "src/app/features/profile/services/profile.service.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/profile.model",
+          "properties": {
+            "from": "../models/profile.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service:ProfileService:src/app/features/profile/services/profile.service.ts",
+      "type": "Service",
+      "name": "ProfileService",
+      "filePath": "src/app/features/profile/services/profile.service.ts",
+      "properties": {
+        "providedIn": "root"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:HttpClient",
+          "properties": {
+            "parameterName": "http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/profile/components/follow-button.component.ts",
+      "type": "File",
+      "name": "follow-button.component.ts",
+      "filePath": "src/app/features/profile/components/follow-button.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../services/profile.service",
+          "properties": {
+            "from": "../services/profile.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/profile.model",
+          "properties": {
+            "from": "../models/profile.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:FollowButtonComponent:src/app/features/profile/components/follow-button.component.ts",
+      "type": "Component",
+      "name": "FollowButtonComponent",
+      "filePath": "src/app/features/profile/components/follow-button.component.ts",
+      "properties": {
+        "selector": "app-follow-button"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ProfileService:src/app/features/profile/services/profile.service.ts",
+          "properties": {
+            "parameterName": "profileService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/profile/pages/profile/profile.component.ts",
+      "type": "File",
+      "name": "profile.component.ts",
+      "filePath": "src/app/features/profile/pages/profile/profile.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../models/profile.model",
+          "properties": {
+            "from": "../../models/profile.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../services/profile.service",
+          "properties": {
+            "from": "../../services/profile.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../components/follow-button.component",
+          "properties": {
+            "from": "../../components/follow-button.component"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ProfileComponent:src/app/features/profile/pages/profile/profile.component.ts",
+      "type": "Component",
+      "name": "ProfileComponent",
+      "filePath": "src/app/features/profile/pages/profile/profile.component.ts",
+      "properties": {
+        "selector": "app-profile-page",
+        "templateUrl": "./profile.component.html"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ActivatedRoute",
+          "properties": {
+            "parameterName": "route"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ProfileService:src/app/features/profile/services/profile.service.ts",
+          "properties": {
+            "parameterName": "profileService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/profile/components/profile-articles.component.ts",
+      "type": "File",
+      "name": "profile-articles.component.ts",
+      "filePath": "src/app/features/profile/components/profile-articles.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../article/components/article-list.component",
+          "properties": {
+            "from": "../../article/components/article-list.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../services/profile.service",
+          "properties": {
+            "from": "../services/profile.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/profile.model",
+          "properties": {
+            "from": "../models/profile.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../article/models/article-list-config.model",
+          "properties": {
+            "from": "../../article/models/article-list-config.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ProfileArticlesComponent:src/app/features/profile/components/profile-articles.component.ts",
+      "type": "Component",
+      "name": "ProfileArticlesComponent",
+      "filePath": "src/app/features/profile/components/profile-articles.component.ts",
+      "properties": {
+        "selector": "app-profile-articles"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ActivatedRoute",
+          "properties": {
+            "parameterName": "route"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ProfileService:src/app/features/profile/services/profile.service.ts",
+          "properties": {
+            "parameterName": "profileService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/profile/components/profile-favorites.component.ts",
+      "type": "File",
+      "name": "profile-favorites.component.ts",
+      "filePath": "src/app/features/profile/components/profile-favorites.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../article/components/article-list.component",
+          "properties": {
+            "from": "../../article/components/article-list.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../services/profile.service",
+          "properties": {
+            "from": "../services/profile.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/profile.model",
+          "properties": {
+            "from": "../models/profile.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../article/models/article-list-config.model",
+          "properties": {
+            "from": "../../article/models/article-list-config.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ProfileFavoritesComponent:src/app/features/profile/components/profile-favorites.component.ts",
+      "type": "Component",
+      "name": "ProfileFavoritesComponent",
+      "filePath": "src/app/features/profile/components/profile-favorites.component.ts",
+      "properties": {
+        "selector": "app-profile-favorites"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ActivatedRoute",
+          "properties": {
+            "parameterName": "route"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ProfileService:src/app/features/profile/services/profile.service.ts",
+          "properties": {
+            "parameterName": "profileService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/profile/profile.routes.ts",
+      "type": "File",
+      "name": "profile.routes.ts",
+      "filePath": "src/app/features/profile/profile.routes.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./pages/profile/profile.component",
+          "properties": {
+            "from": "./pages/profile/profile.component"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/pages/editor/editor.component.ts",
+      "type": "File",
+      "name": "editor.component.ts",
+      "filePath": "src/app/features/article/pages/editor/editor.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/forms",
+          "properties": {
+            "from": "@angular/forms"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/models/errors.model",
+          "properties": {
+            "from": "../../../../core/models/errors.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../services/articles.service",
+          "properties": {
+            "from": "../../services/articles.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../shared/components/list-errors.component",
+          "properties": {
+            "from": "../../../../shared/components/list-errors.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Interface:ArticleForm:src/app/features/article/pages/editor/editor.component.ts",
+      "type": "Interface",
+      "name": "ArticleForm",
+      "filePath": "src/app/features/article/pages/editor/editor.component.ts",
+      "relationships": []
+    },
+    {
+      "id": "Component:EditorComponent:src/app/features/article/pages/editor/editor.component.ts",
+      "type": "Component",
+      "name": "EditorComponent",
+      "filePath": "src/app/features/article/pages/editor/editor.component.ts",
+      "properties": {
+        "selector": "app-editor-page",
+        "templateUrl": "./editor.component.html"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ArticlesService:src/app/features/article/services/articles.service.ts",
+          "properties": {
+            "parameterName": "articleService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ActivatedRoute",
+          "properties": {
+            "parameterName": "route"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/models/comment.model.ts",
+      "type": "File",
+      "name": "comment.model.ts",
+      "filePath": "src/app/features/article/models/comment.model.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../profile/models/profile.model",
+          "properties": {
+            "from": "../../profile/models/profile.model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Interface:Comment:src/app/features/article/models/comment.model.ts",
+      "type": "Interface",
+      "name": "Comment",
+      "filePath": "src/app/features/article/models/comment.model.ts",
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/services/comments.service.ts",
+      "type": "File",
+      "name": "comments.service.ts",
+      "filePath": "src/app/features/article/services/comments.service.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/comment.model",
+          "properties": {
+            "from": "../models/comment.model"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Service:CommentsService:src/app/features/article/services/comments.service.ts",
+      "type": "Service",
+      "name": "CommentsService",
+      "filePath": "src/app/features/article/services/comments.service.ts",
+      "properties": {
+        "providedIn": "root"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:HttpClient",
+          "properties": {
+            "parameterName": "http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/shared/pipes/markdown.pipe.ts",
+      "type": "File",
+      "name": "markdown.pipe.ts",
+      "filePath": "src/app/shared/pipes/markdown.pipe.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/platform-browser",
+          "properties": {
+            "from": "@angular/platform-browser"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pipe:MarkdownPipe:src/app/shared/pipes/markdown.pipe.ts",
+      "type": "Pipe",
+      "name": "MarkdownPipe",
+      "filePath": "src/app/shared/pipes/markdown.pipe.ts",
+      "properties": {
+        "pipeName": "markdown"
+      },
+      "relationships": [
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:PipeTransform"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/features/article/components/article-comment.component.ts",
+      "type": "File",
+      "name": "article-comment.component.ts",
+      "filePath": "src/app/features/article/components/article-comment.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../core/auth/user.model",
+          "properties": {
+            "from": "../../../core/auth/user.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../models/comment.model",
+          "properties": {
+            "from": "../models/comment.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ArticleCommentComponent:src/app/features/article/components/article-comment.component.ts",
+      "type": "Component",
+      "name": "ArticleCommentComponent",
+      "filePath": "src/app/features/article/components/article-comment.component.ts",
+      "properties": {
+        "selector": "app-article-comment"
+      },
+      "relationships": []
+    },
+    {
+      "id": "File:src/app/features/article/pages/article/article.component.ts",
+      "type": "File",
+      "name": "article.component.ts",
+      "filePath": "src/app/features/article/pages/article/article.component.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/forms",
+          "properties": {
+            "from": "@angular/forms"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/user.model",
+          "properties": {
+            "from": "../../../../core/auth/user.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../models/article.model",
+          "properties": {
+            "from": "../../models/article.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../services/articles.service",
+          "properties": {
+            "from": "../../services/articles.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../services/comments.service",
+          "properties": {
+            "from": "../../services/comments.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/services/user.service",
+          "properties": {
+            "from": "../../../../core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../components/article-meta.component",
+          "properties": {
+            "from": "../../components/article-meta.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common",
+          "properties": {
+            "from": "@angular/common"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../shared/pipes/markdown.pipe",
+          "properties": {
+            "from": "../../../../shared/pipes/markdown.pipe"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../shared/components/list-errors.component",
+          "properties": {
+            "from": "../../../../shared/components/list-errors.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../components/article-comment.component",
+          "properties": {
+            "from": "../../components/article-comment.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../models/comment.model",
+          "properties": {
+            "from": "../../models/comment.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/auth/if-authenticated.directive",
+          "properties": {
+            "from": "../../../../core/auth/if-authenticated.directive"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../../core/models/errors.model",
+          "properties": {
+            "from": "../../../../core/models/errors.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../profile/models/profile.model",
+          "properties": {
+            "from": "../../../profile/models/profile.model"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core/rxjs-interop",
+          "properties": {
+            "from": "@angular/core/rxjs-interop"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../components/favorite-button.component",
+          "properties": {
+            "from": "../../components/favorite-button.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../../../profile/components/follow-button.component",
+          "properties": {
+            "from": "../../../profile/components/follow-button.component"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Component:ArticleComponent:src/app/features/article/pages/article/article.component.ts",
+      "type": "Component",
+      "name": "ArticleComponent",
+      "filePath": "src/app/features/article/pages/article/article.component.ts",
+      "properties": {
+        "selector": "app-article-page",
+        "templateUrl": "./article.component.html"
+      },
+      "relationships": [
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:ActivatedRoute",
+          "properties": {
+            "parameterName": "route"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:ArticlesService:src/app/features/article/services/articles.service.ts",
+          "properties": {
+            "parameterName": "articleService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:CommentsService:src/app/features/article/services/comments.service.ts",
+          "properties": {
+            "parameterName": "commentsService"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Unresolved:Router",
+          "properties": {
+            "parameterName": "router"
+          }
+        },
+        {
+          "type": "INJECTS",
+          "targetId": "Service:UserService:src/app/core/auth/services/user.service.ts",
+          "properties": {
+            "parameterName": "userService"
+          }
+        },
+        {
+          "type": "IMPLEMENTS",
+          "targetId": "Unresolved:OnInit"
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/app.routes.ts",
+      "type": "File",
+      "name": "app.routes.ts",
+      "filePath": "src/app/app.routes.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/auth/services/user.service",
+          "properties": {
+            "from": "./core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/core/interceptors/api.interceptor.ts",
+      "type": "File",
+      "name": "api.interceptor.ts",
+      "filePath": "src/app/core/interceptors/api.interceptor.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/core/interceptors/token.interceptor.ts",
+      "type": "File",
+      "name": "token.interceptor.ts",
+      "filePath": "src/app/core/interceptors/token.interceptor.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:../auth/services/jwt.service",
+          "properties": {
+            "from": "../auth/services/jwt.service"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/core/interceptors/error.interceptor.ts",
+      "type": "File",
+      "name": "error.interceptor.ts",
+      "filePath": "src/app/core/interceptors/error.interceptor.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs/operators",
+          "properties": {
+            "from": "rxjs/operators"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/app/app.config.ts",
+      "type": "File",
+      "name": "app.config.ts",
+      "filePath": "src/app/app.config.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/core",
+          "properties": {
+            "from": "@angular/core"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/router",
+          "properties": {
+            "from": "@angular/router"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./app.routes",
+          "properties": {
+            "from": "./app.routes"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/common/http",
+          "properties": {
+            "from": "@angular/common/http"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/auth/services/jwt.service",
+          "properties": {
+            "from": "./core/auth/services/jwt.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/auth/services/user.service",
+          "properties": {
+            "from": "./core/auth/services/user.service"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/interceptors/api.interceptor",
+          "properties": {
+            "from": "./core/interceptors/api.interceptor"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/interceptors/token.interceptor",
+          "properties": {
+            "from": "./core/interceptors/token.interceptor"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./core/interceptors/error.interceptor",
+          "properties": {
+            "from": "./core/interceptors/error.interceptor"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:rxjs",
+          "properties": {
+            "from": "rxjs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "File:src/main.ts",
+      "type": "File",
+      "name": "main.ts",
+      "filePath": "src/main.ts",
+      "relationships": [
+        {
+          "type": "IMPORTS",
+          "targetId": "External:@angular/platform-browser",
+          "properties": {
+            "from": "@angular/platform-browser"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./app/app.component",
+          "properties": {
+            "from": "./app/app.component"
+          }
+        },
+        {
+          "type": "IMPORTS",
+          "targetId": "External:./app/app.config",
+          "properties": {
+            "from": "./app/app.config"
+          }
+        }
+      ]
+    }
+  ]
+}

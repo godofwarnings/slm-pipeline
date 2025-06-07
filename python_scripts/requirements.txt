@@ -1,0 +1,14 @@
+neo4j>=5.10  # Or the latest stable version
+python-dotenv>=0.20 # For managing environment variables
+jsonschema>=4.0 # For schema validation (used by graph_exporter.py later)
+neo4j>=5.10
+python-dotenv>=0.20
+jsonschema>=4.0
+pandas # For notebook display
+# LangChain and Ollama related
+langchain>=0.1.0   # Or a more recent stable version
+langchain-community # For Ollama and other community integrations
+langchain-experimental # For GraphCypherQAChain
+ollama # Official Ollama Python client (optional, LangChain can also call Ollama directly)
+ipykernel # For Jupyter notebook kernel if running venv from Jupyter
+pyvis # Optional, for pyvis graph visualization in notebook

@@ -1,0 +1,25 @@
+{
+    "name": "angular-ast-parser",
+    "version": "1.0.0",
+    "description": "Parses an Angular codebase to extract AST information.",
+    "main": "dist/parser.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/parser.js",
+      "parse": "npm run build && node dist/parser.js"
+    },
+    "keywords": [
+      "angular",
+      "ast",
+      "parser",
+      "typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "typescript": "^5.0.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20.0.0"
+    }
+  }

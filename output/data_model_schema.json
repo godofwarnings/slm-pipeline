@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Graph Data Model Instance Schema",
+  "description": "Defines the structure for representing graph nodes and relationships.",
+  "type": "object",
+  "properties": {
+    "nodes": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Graph Data Model Instance Schema Property: nodes",
+      "description": "",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string",
+            "description": "Internal element ID of the node."
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of labels for the node."
+          },
+          "properties": {
+            "type": "object",
+            "description": "Key-value properties of the node.",
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "_id",
+          "labels",
+          "properties"
+        ]
+      }
+    },
+    "relationships": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Graph Data Model Instance Schema Property: relationships",
+      "description": "",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string",
+            "description": "Internal element ID of the relationship."
+          },
+          "_sourceId": {
+            "type": "string",
+            "description": "Element ID of the source node."
+          },
+          "_targetId": {
+            "type": "string",
+            "description": "Element ID of the target node."
+          },
+          "type": {
+            "type": "string",
+            "description": "Type of the relationship."
+          },
+          "properties": {
+            "type": "object",
+            "description": "Key-value properties of the relationship.",
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "_id",
+          "_sourceId",
+          "_targetId",
+          "type",
+          "properties"
+        ]
+      }
+    }
+  }
+}
